@@ -10,10 +10,10 @@ var varsion = "1.0.0"
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:     "iptracker",
+	Use:     "ipinfo",
 	Version: varsion,
-	Short:   "CLI App to track IP Addresses.",
-	Long:    `CLI App to track IP Addresses.`,
+	Short:   "CLI App to get IP info.",
+	Long:    `CLI App to get IP info.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
